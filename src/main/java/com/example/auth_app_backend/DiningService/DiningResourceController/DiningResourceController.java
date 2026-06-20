@@ -11,6 +11,7 @@ import java.util.List;
 @RequestMapping("/api/resources")
 
 public class DiningResourceController {
+    
     private final DiningResourceService service;
 
     public DiningResourceController(DiningResourceService service) {
